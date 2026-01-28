@@ -1,0 +1,51 @@
+---
+title: "Problems I'm Exploring"
+---
+
+## 1. How Can Mid-Market Companies Build Defensible Growth Strategies Without Enterprise-Level Resources?
+
+Most growth strategy frameworks are designed for large enterprises with deep pockets and dedicated strategy teams. Mid-market companies — the backbone of the economy — are often left to figure things out on their own, relying on intuition rather than structured analysis.
+
+**Why this matters to me:** As someone pursuing management consulting, I want to help the companies that need it most. I've seen firsthand through my entrepreneurial work how hard it is to grow a business without a playbook. Understanding how to bring structured strategic thinking to resource-constrained organizations is a problem I want to spend my career solving.
+
+**The solvable framing:** By adapting enterprise-level strategic frameworks (e.g., Porter's Five Forces, Jobs-to-be-Done) into lightweight, actionable toolkits, consultants and operators can give mid-market companies a real competitive advantage without requiring massive budgets.
+
+---
+
+## 2. Why Do Most Small Business Acquisitions Fail to Create Value for the Buyer?
+
+The small business acquisition market is booming — fueled by search funds, SBA loans, and online marketplaces like BizBuySell. But a significant number of these deals destroy value for the buyer due to poor due diligence, unrealistic projections, or misaligned operator-business fit.
+
+**Why this matters to me:** I personally went through the process of nearly acquiring a restaurant at 20 years old. I learned how easy it is to get swept up in the excitement and how difficult it is to objectively evaluate whether a deal actually makes sense. This experience made me deeply curious about what separates successful acquisitions from costly mistakes.
+
+**The solvable framing:** By building better frameworks for operator-business fit assessment and standardizing due diligence processes for sub-$5M acquisitions, we can dramatically improve outcomes for first-time buyers and reduce the failure rate.
+
+---
+
+## 3. How Can Brick-and-Mortar Retailers Effectively Compete in E-Commerce Against Digital-Native Giants?
+
+Traditional retailers like Walmart have massive physical footprints, established supply chains, and loyal customer bases — yet they continue to struggle capturing meaningful e-commerce market share from Amazon. The capabilities that make them dominant in-store don't automatically translate online.
+
+**Why this matters to me:** I've been studying this exact problem in Professor David Bryce's strategy course at BYU, analyzing how Walmart can leverage its existing assets to compete with Amazon. It's a fascinating intersection of operations, technology, and go-to-market strategy that sits right at the center of my interests.
+
+**The solvable framing:** By identifying which existing physical-retail capabilities transfer to digital channels (e.g., last-mile logistics from store locations, in-store pickup infrastructure) and which require entirely new investments, traditional retailers can build hybrid strategies that play to their unique strengths rather than trying to out-Amazon Amazon.
+
+---
+
+## 4. How Can the Publishing Industry Adapt Its Business Model to Support Independent Authors at Scale?
+
+The traditional publishing model is built around gatekeeping — agents, editors, and publishing houses decide what gets published. Independent publishing has opened the floodgates, but most indie authors lack access to the distribution, marketing, and editorial infrastructure needed to succeed. The result is a market flooded with content but starved of discoverability.
+
+**Why this matters to me:** As the founder of The Dead Men Co. and the author of *The Anthrope*, I've lived this problem. I built my own marketing strategy, managed my own distribution, and learned through trial and error what works. The experience showed me how broken the system is for independent creators who don't have a traditional publishing deal.
+
+**The solvable framing:** By developing scalable platforms and service models that bundle editorial, marketing, and distribution support for indie authors — essentially a "publishing-as-a-service" model — the industry can unlock the massive long-tail of independent content while creating a sustainable business.
+
+---
+
+## 5. How Can Organizations Use AI to Enhance Strategic Decision-Making Without Losing Human Judgment?
+
+AI tools are transforming how businesses analyze data, forecast trends, and generate insights. But there's a growing risk that organizations will over-rely on AI outputs and underweight the nuanced human judgment that separates good strategy from great strategy. The challenge is integration, not replacement.
+
+**Why this matters to me:** I use AI tools daily — from Claude Code for building applications to ChatGPT for research and analysis. I've seen how powerful these tools are, but I've also seen how easy it is to accept an AI output at face value without critical evaluation. As I move toward a consulting career, I want to understand how to use AI as a force multiplier for human decision-making rather than a substitute for it.
+
+**The solvable framing:** By developing structured workflows that pair AI-generated analysis with human review checkpoints — and by training teams to critically evaluate AI outputs — organizations can capture the speed and scale benefits of AI while preserving the strategic judgment that drives differentiated decisions.

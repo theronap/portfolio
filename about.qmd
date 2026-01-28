@@ -4,14 +4,16 @@ title: "About Me"
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/profile.png" alt="Theron Peterson" class="rounded-circle mb-3" width="160">
 
-<h1>Your Name</h1>
+<h1>Theron Peterson</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<h2>Strategic Management · BYU Marriott School of Business</h2>
+
+<a href="https://www.linkedin.com/in/theron-peterson" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/theronap" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -19,45 +21,50 @@ title: "About Me"
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+I'm a Strategic Management student at the BYU Marriott School of Business focused on solving ambiguous problems with structure, speed, and strong execution.
+
+I'm working toward a career in management consulting (MBB is a long-term goal) because I want to learn how world-class teams turn messy business problems into clear decisions and measurable results. I'm especially interested in growth strategy, go-to-market, operations, and M&A.
+
+Outside of school, I'm an entrepreneur and author. I've independently published fiction, built marketing strategy around reader growth, and explored acquisition opportunities for small businesses — experiences that sharpened my ability to move quickly, learn fast, and stay disciplined with data.
+
+I'm currently looking for internship opportunities where I can contribute in a strategy, operations, or business development role while being pushed to think at a higher level.
 
 ### Education
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+- **Strategic Management**, Brigham Young University (2024 – 2028)
+- **Activities**: BYU Management Consulting Association
+- **Relevant Skills**: Financial Modeling, Business Strategy
 
 ### Experience
 
-#### Job/Internship Title - Company Name
-*Dates*
+#### Founder — The Dead Men Co.
+*Jul 2024 – Present · Provo, Utah*
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+- Founded and lead a creative venture spanning publishing, marketing, and brand development
+- Independently published *The Anthrope* (Oct 2024), gaining hands-on experience in the publishing industry, design, marketing, and sales
+- Explored small-business acquisition opportunities, including financial analysis, broker negotiations, and financing strategy
 
-#### Another Position - Company Name
-*Dates*
+### Projects
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+#### The Anthrope
+*Jul 2024 – Oct 2024 · The Dead Men Co.*
+
+First novel released in October 2024. The project provided deep insights into the publishing industry, as well as design, marketing, sales, and creative problem-solving.
 
 ### Skills & Interests
 
-**Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+**Top Skills**
 
-**Soft Skills**
-- Communication and presentation
-- Cross-functional collaboration
-- Strategic thinking and problem-solving
+- Data Analysis
+- Leadership
+- Presentation Skills
+- Problem Solving
+- Spanish
 
 **Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+
+Strategy, management consulting, growth & go-to-market, M&A, entrepreneurship, and fiction writing.
 
 ### What's Next
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+Seeking internship opportunities in strategy, operations, or business development — anywhere I can contribute meaningfully while being pushed to think at a higher level.

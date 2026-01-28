@@ -12,10 +12,12 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: problems.qmd
+        text: Problems I'm Exploring
       - text: Projects
         menu:
           - href: projects/project-1.qmd
-            text: Name of my first app
+            text: Tron To-Do List
           #- href: projects/project-2.qmd
           #  text: Business Case Presentation
           #- href: projects/project-3.qmd
@@ -29,7 +31,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
     toc: true
     include-in-header:

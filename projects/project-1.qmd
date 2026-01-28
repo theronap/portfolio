@@ -1,24 +1,25 @@
 ---
-title: "Name of the application I have published for Homework 1"
-date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+title: "Tron To-Do List"
+date: "2026-01-28"
+categories: [React, Vite, Supabase, Vercel, Claude Code]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+A Tron-themed to-do list application built with React and Supabase. The app features a cinematic neon aesthetic inspired by the Tron universe, complete with glowing cyan accents, animated grid backgrounds, and the Orbitron typeface.
 
 The primary purpose of this app is to:
 
-- ....
-- ....
+- Create, manage, and delete tasks with a persistent Supabase backend
+- Provide a visually striking, immersive UI inspired by Tron's digital world
+- Demonstrate full-stack development with React, Vite, and Supabase
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href="https://todo-supabase-silk.vercel.app"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -27,7 +28,7 @@ The primary purpose of this app is to:
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
+     href="https://github.com/theronap/claude-chat-interface/tree/main/todo-supabase"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
@@ -35,20 +36,19 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
+<iframe src="https://todo-supabase-silk.vercel.app"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+**Framework/Stack:** React 19, Vite, Supabase
 
-Deployment: GitHub Pages + Vercel
+**Deployment:** Vercel
 
-Tools Used:
--   Claude Code
+**Tools Used:**
 
-## Product Requirements Document
-
-Paste in the PRD that you submitted to Claude Code
+- Claude Code
+- Supabase (backend / database)
+- Vite (build tooling)
