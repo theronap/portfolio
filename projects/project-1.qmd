@@ -27,7 +27,7 @@ The primary purpose of this app is to:
   </a>
 
   <!-- GitHub Source button -->
-  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+  <a class="btn btn-outline-primary d-inline-flex align-items-center"
      href="https://github.com/theronap/claude-chat-interface/tree/main/todo-supabase"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
@@ -52,3 +52,46 @@ The primary purpose of this app is to:
 - Claude Code
 - Supabase (backend / database)
 - Vite (build tooling)
+
+## Product Requirements Document
+
+**Product:** Tron-themed To-Do List Application
+
+**Objective:** Build a visually immersive, fully functional to-do list app with a Tron: Legacy aesthetic, backed by a persistent database, and deployed to the web.
+
+**Requirements:**
+
+1. **Task Management (Core)**
+   - Users can create new tasks via a text input
+   - Users can mark tasks as complete/incomplete (toggle)
+   - Users can delete individual tasks
+   - Users can clear all completed tasks at once
+   - Users can filter the list by All, Active, or Completed
+   - Display a count of remaining active items
+
+2. **Data Persistence**
+   - All tasks are stored in a Supabase PostgreSQL database
+   - Tasks persist across sessions and page reloads
+   - CRUD operations (create, read, update, delete) are handled via the Supabase JavaScript client
+
+3. **Visual Design — Tron Theme**
+   - Dark background with animated grid pattern evoking the Tron digital world
+   - Primary color: neon cyan (`#00f7ff`) with glow effects
+   - Secondary color: orange (`#ff6a00`) for accents and warnings
+   - Typography: Orbitron (headers) and Rajdhani (body) from Google Fonts
+   - Neon glow effects on interactive elements using CSS box-shadow and text-shadow
+   - Title flicker animation for cinematic feel
+   - Horizon glow effect at the bottom of the viewport
+
+4. **Easter Egg — Light Cycle Game**
+   - A hidden "Get Distracted" button launches a full-screen Light Cycle mini-game
+   - Player controls a light cycle with arrow keys or WASD
+   - 4 AI enemy cycles with independent pathfinding and aggression
+   - Trail collision mechanics (hitting any trail or wall = game over)
+   - Score tracking and "DEREZZED" count for eliminated enemies
+   - Exit zone to return to the to-do list
+
+5. **Technical Constraints**
+   - Built with React 19 and Vite
+   - Deployed to Vercel
+   - No additional UI libraries — all styling is custom CSS
