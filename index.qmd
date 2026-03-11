@@ -21,6 +21,13 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
+### [teachMe](projects/project-7.qmd)
+An AI reading companion for ADHD learners — paste any text, get an AI explanation read aloud with TTS, and ask inline questions without losing your place.
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .card}
+
 ### [Tron To-Do List](projects/project-1.qmd)
 A Tron-themed to-do list app built with React, Vite, and Supabase — featuring neon cyan aesthetics and persistent task management.
 

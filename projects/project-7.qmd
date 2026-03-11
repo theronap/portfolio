@@ -1,0 +1,118 @@
+---
+title: "teachMe"
+date: "2026-03-10"
+categories: [Next.js, OpenAI, Supabase, Vercel, Claude Code, TypeScript]
+---
+
+## Overview
+
+teachMe is an AI reading companion designed for ADHD learners. Users paste or upload any dense text — a textbook excerpt, article, or document — and receive a streaming AI-generated explanation read aloud with natural text-to-speech. While listening, they can pause, click any paragraph, ask a follow-up question, and hear the answer read back in context before playback resumes where it left off.
+
+The core insight: passive reading fails ADHD brains. teachMe converts it into an active, audio-first experience anchored to the source document — not a generic chatbot.
+
+**Target user:** College students and adults with ADHD who re-read the same paragraph multiple times without retaining it, and learn better when they can ask questions in the moment.
+
+> "Paste anything. Understand it. Remember it."
+
+## Live Product Demo
+
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://teach-me.vercel.app"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
+
+  <a class="btn btn-outline-primary d-inline-flex align-items-center"
+     href="https://github.com/theronap/teachMe"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View Source on GitHub
+  </a>
+</div>
+
+<iframe src="https://teach-me.vercel.app/read"
+        style="width:100%; height:900px; border:none;"
+        allowfullscreen>
+</iframe>
+
+## Technical Details
+
+**Framework/Stack:** Next.js 16 (App Router, React 19), TypeScript
+
+**AI:** Vercel AI SDK — Claude Haiku (explanation/simplification), OpenAI tts-1 (TTS), Whisper (voice input)
+
+**Backend:** Supabase (auth + PostgreSQL with Row-Level Security)
+
+**Deployment:** Vercel
+
+**Tools Used:**
+
+- Claude Code
+- Supabase (auth, database, RLS)
+- OpenAI (TTS + transcription)
+- Anthropic / Claude Haiku (LLM)
+- Vercel (hosting + edge functions)
+
+## Product Requirements Document
+
+**Product:** teachMe — AI Reading Companion for ADHD Learners
+
+**Objective:** Build an audio-first reading tool that turns any pasted or uploaded text into an AI-narrated, interactive study session — saving sessions to a personal library.
+
+**Requirements:**
+
+1. **Core Reading Flow**
+   - User submits text via paste, PDF upload, or URL fetch
+   - App streams an AI-generated explanation (Claude Haiku) in real time
+   - Text-to-speech reads the explanation aloud, paragraph by paragraph
+   - Source text and explanation displayed side-by-side; source highlights as audio plays
+
+2. **Inline Q&A**
+   - Hovering any explanation paragraph reveals an "Ask" prompt
+   - Submitting a question during TTS pauses audio, reads the question aloud, streams the answer, reads it back, then offers to resume
+   - Follow-up questions supported within the same annotation card
+
+3. **Reading Modes**
+   - **Explain** — plain-English breakdown of the source text
+   - **Simplify** — shorter, simpler version of the same content
+   - **Study Guide** — structured outline with key points
+
+4. **TTS Controls**
+   - Speed: 0.75×–2×; default 1.25×
+   - Voice presets: Nova, Shimmer, Alloy, Echo
+   - Multi-slot prefetch buffer (3 chunks ahead) for gapless playback
+   - Jump to any paragraph via "Play here" button
+
+5. **Auth + Persistence**
+   - Email magic link authentication via Supabase Auth
+   - Documents auto-save to Supabase on generation and on each annotation
+   - Row-Level Security: users can only read/write their own documents
+   - Library page: list, reopen, and delete saved sessions
+
+6. **Input Modes**
+   - Paste (plain text)
+   - File upload (PDF, TXT)
+   - URL fetch
+   - Voice input (Whisper transcription)
+
+## User Testing Findings (Sprint 3)
+
+Conducted 3 moderated sessions (~10 min each) with college students matching the target ICP.
+
+**Key findings:**
+
+- The two most differentiating features (TTS and inline Q&A) were not discovered by 2 of 3 users — discoverability is the top UX problem
+- Quiz/testing mode was the most-requested missing feature; one user invented a workaround by typing questions manually
+- Side-by-side source view was consistently cited as the clearest differentiator from ChatGPT
+- Input friction (URL not working, PDF formatting lost on paste) blocked the session start for 2 users
+
+**Top priority changes identified:**
+
+1. Surface TTS and Q&A on first load via onboarding hint
+2. Add auto-generated quiz mode from the explanation
+3. Fix URL and PDF input reliability; preserve paste formatting
+4. Sharpen landing page copy around the differentiators
