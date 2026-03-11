@@ -16,6 +16,8 @@ website:
         text: Problems I'm Exploring
       - text: Projects
         menu:
+          - href: projects/project-7.qmd
+            text: teachMe
           - href: projects/project-1.qmd
             text: Tron To-Do List
           #- href: projects/project-2.qmd
