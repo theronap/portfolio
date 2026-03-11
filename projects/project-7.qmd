@@ -18,7 +18,7 @@ The core insight: passive reading fails ADHD brains. teachMe converts it into an
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://teach-me.vercel.app"
+     href="https://teach-me-nu.vercel.app"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -34,7 +34,7 @@ The core insight: passive reading fails ADHD brains. teachMe converts it into an
   </a>
 </div>
 
-<iframe src="https://teach-me.vercel.app/read"
+<iframe src="https://teach-me-nu.vercel.app/read"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
